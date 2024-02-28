@@ -14,9 +14,10 @@ from torch.utils.tensorboard import (
 )  # dashboard local, dashboard en ligne permet de travailler à plusieurs
 
 ### LIBRAIRIE POUR EVITER DE LES RECOPIER : DEEPCS. github jeremyfix +pytorch_template_code (auto completion)
-from utils.NN_utils import test, train
+from src.training.train_utils import train
+from src.evaluation.test_utils import test
 from models.NN_models import FullyConnected
-from utils.data_utils import load_dataset_FashionMNIST_with_standardization
+from src.data_preprocessing.MINST import load_dataset_FashionMNIST_with_standardization
 
 
 """ DATASET """
