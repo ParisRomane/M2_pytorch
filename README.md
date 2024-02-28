@@ -10,11 +10,11 @@ Le projet est organisé de la manière suivante :
 
 **src** On défini ici tout les outils et scripts qui permettent de faire apprendre ou de tester le réseau de neuronne.
 
--**src/data_preprocessing** Défini l'ouverture et les preprocessing des données. (Données utilisées : MINST_fashion, )
+- **src/data_preprocessing** Défini l'ouverture et les preprocessing des données. (Données utilisées : MINST_fashion, )
 
--**src/training** Défini les fonctions et le script d'entrainement des données. 
+- **src/training** Défini les fonctions et le script d'entrainement des données. 
 
--**src/evaluation** Défini les fonctions et le script de test et évaluation des données. 
+- **src/evaluation** Défini les fonctions et le script de test et évaluation des données. 
 
 **logs** Dossiers des logs où se trouve la sauvegarde des modèles et leur performances. 
 
